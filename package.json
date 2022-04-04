@@ -1,0 +1,18 @@
+{
+  "name": "primeiro-projeto-node-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lissandrojs/Primeiro-Projeto-Node-express.git",
+  "author": "Lissandro kenziano <lissandromr@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3"
+  }
+}
